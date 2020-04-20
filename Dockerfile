@@ -1,2 +1,3 @@
 from solr:5.3.1
-bin/solr create_core -c gettingstarted
+WORKDIR /opt/solr
+RUN solr create -c drupal-solr
